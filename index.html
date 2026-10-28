@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="google" content="notranslate">
+<meta name="color-scheme" content="light dark">
+<title>Vintage Game Sales</title>
+<meta name="description" content="Realised prices for early-print Pokémon Red, Pokémon Green and Super Mario Bros. from Yahoo! Auctions, Yahoo!フリマ and Mercari.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23111'/%3E%3Cpath d='M8 21l5-6 4 3 7-9' stroke='%23fff' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#F5F5F7; --card:#FFFFFF; --ink:#1D1D1F; --ink2:#424245; --ink3:#86868B; --line:rgba(0,0,0,.08);
+  --fill:#F2F2F4; --fill2:#E8E8ED; --blue:#0071E3; --green:#1E8E3E; --red:#D70015; --amber:#B25000;
+  --shadow:0 1px 2px rgba(0,0,0,.04), 0 10px 30px -14px rgba(0,0,0,.16); --r:22px; --rs:14px;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#000; --card:#161618; --ink:#F5F5F7; --ink2:#C7C7CC; --ink3:#8E8E93; --line:rgba(255,255,255,.1);
+  --fill:#232326; --fill2:#2E2E31; --blue:#2997FF; --green:#30D158; --red:#FF453A; --amber:#FF9F0A; --shadow:none;
+}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Hiragino Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit}
+a{color:inherit}
+.num{font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:8px}
+
+.wrap{max-width:1480px;margin:0 auto;padding:max(28px,env(safe-area-inset-top)) max(20px,env(safe-area-inset-right)) 64px max(20px,env(safe-area-inset-left))}
+.top{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;flex-wrap:wrap;margin:18px 0 28px}
+h1{font-size:clamp(32px,4.4vw,48px);font-weight:700;letter-spacing:-.04em;line-height:1.02;margin:0}
+.lede{color:var(--ink3);margin:10px 0 0;max-width:640px;font-size:15px}
+.lede b{color:var(--ink2);font-weight:600}
+.controls{display:flex;gap:10px;align-items:center}
+
+.seg{display:inline-flex;background:var(--fill2);padding:3px;border-radius:11px;gap:2px}
+.seg button{border:0;background:transparent;color:var(--ink2);font-weight:600;font-size:13px;line-height:1;padding:8px 13px;border-radius:9px;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}
+.seg button[aria-pressed="true"]{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.14)}
+.seg button .n{color:var(--ink3);font-weight:500;margin-left:5px}
+
+.icon-btn{width:38px;height:38px;border-radius:50%;border:0;background:var(--fill2);display:grid;place-items:center;cursor:pointer;color:var(--ink2)}
+.icon-btn svg{width:18px;height:18px}
+.owner-on .icon-btn.lock{background:var(--ink);color:var(--card)}
+
+.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start}
+@media (max-width:1180px){.cols{grid-template-columns:minmax(0,780px);justify-content:center}}
+
+.card{background:var(--card);border-radius:var(--r);box-shadow:var(--shadow);border:1px solid var(--line);overflow:hidden}
+.card-head{padding:22px 22px 14px}
+.eyebrow{font-size:12px;font-weight:600;color:var(--ink3);letter-spacing:.01em}
+.card h2{font-size:24px;font-weight:700;letter-spacing:-.03em;margin:2px 0 0;line-height:1.15}
+.vt{padding:0 22px 16px}
+.vt .seg{display:flex}
+.vt .seg button{flex:1;padding:9px 8px;font-size:13.5px}
+
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 22px 18px}
+.stat{background:var(--fill);border-radius:var(--rs);padding:12px 14px;min-width:0}
+.stat .k{font-size:11.5px;font-weight:600;color:var(--ink3)}
+.stat .v{font-size:21px;font-weight:700;letter-spacing:-.025em;line-height:1.15;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stat .s{font-size:11.5px;color:var(--ink3);margin-top:2px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.up{color:var(--green)} .dn{color:var(--red)} .flat{color:var(--ink3)}
+
+.chart{position:relative;height:250px;padding:10px 12px 4px 6px;border-top:1px solid var(--line)}
+.chart canvas{cursor:pointer}
+.legend{display:flex;gap:14px;flex-wrap:wrap;padding:6px 22px 14px;font-size:11.5px;color:var(--ink3);border-bottom:1px solid var(--line)}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+.legend i.ring{background:transparent!important;border:1.8px solid}
+.legend i.bar{width:14px;height:3px;border-radius:2px;vertical-align:2px}
+
+.tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:12px 22px;border-bottom:1px solid var(--line)}
+.tools .seg button{padding:7px 10px;font-size:12px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink2);font-weight:600;font-size:12px;line-height:1;padding:8px 11px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--card);border-color:var(--ink)}
+.chip .n{opacity:.65;margin-left:4px;font-weight:500}
+
+.list{list-style:none;margin:0;padding:0}
+.row{position:relative;border-bottom:1px solid var(--line);display:flex}
+.row:last-child{border-bottom:0}
+.row a{flex:1;min-width:0;display:block;padding:14px 22px;text-decoration:none}
+@media (hover:hover){.row a:hover{background:var(--fill)}}
+.row a:active{background:var(--fill)}
+.r1{display:flex;align-items:baseline;gap:8px}
+.price{font-size:17px;font-weight:700;letter-spacing:-.02em}
+.alt{color:var(--ink3);font-size:12.5px;font-weight:500}
+.date{margin-left:auto;color:var(--ink3);font-size:12px;white-space:nowrap}
+.ttl{color:var(--ink3);font-size:12.5px;line-height:1.38;margin-top:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}
+.tag{font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px;background:var(--fill);color:var(--ink2)}
+.tag.ya{color:#6E3FE0;background:color-mix(in srgb,#6E3FE0 11%,transparent)}
+.tag.yf{color:#C2185B;background:color-mix(in srgb,#C2185B 11%,transparent)}
+.tag.me{color:#E2231A;background:color-mix(in srgb,#E2231A 10%,transparent)}
+@media (prefers-color-scheme:dark){.tag.ya{color:#B9A2FF}.tag.yf{color:#FF8AB8}.tag.me{color:#FF8A80}}
+.tag.warn{color:var(--amber);background:color-mix(in srgb,var(--amber) 12%,transparent)}
+.tag.ok{color:var(--green);background:color-mix(in srgb,var(--green) 12%,transparent)}
+.acts{display:none;flex-direction:column;justify-content:center;gap:8px;padding:0 14px 0 0}
+.owner-on .acts{display:flex}
+.act{width:32px;height:32px;border-radius:50%;border:0;background:var(--fill2);color:var(--ink2);cursor:pointer;display:grid;place-items:center}
+.act svg{width:15px;height:15px}
+.act.hide:hover{background:var(--red);color:#fff}
+.act.ok:hover{background:var(--green);color:#fff}
+.row.pending{opacity:.45;pointer-events:none}
+.more{display:block;width:100%;border:0;border-top:1px solid var(--line);background:transparent;padding:14px;color:var(--blue);font-weight:600;cursor:pointer}
+.empty{padding:28px 22px;color:var(--ink3);font-size:13.5px}
+
+footer{color:var(--ink3);font-size:12.5px;text-align:center;margin-top:40px;line-height:1.7}
+footer .warn{color:var(--amber)}
+footer button.linkish{border:0;background:none;color:var(--blue);cursor:pointer;padding:0;font-weight:600}
+
+#toast{position:fixed;left:50%;bottom:max(20px,env(safe-area-inset-bottom));transform:translate(-50%,120%);background:var(--ink);color:var(--bg);padding:12px 14px 12px 18px;border-radius:14px;display:flex;gap:14px;align-items:center;box-shadow:0 14px 40px -10px rgba(0,0,0,.45);font-size:13.5px;transition:transform .25s ease;z-index:20;max-width:calc(100vw - 32px)}
+#toast.on{transform:translate(-50%,0)}
+#toast button{border:0;background:var(--bg);color:var(--ink);border-radius:9px;padding:7px 12px;font-weight:600;font-size:12.5px;cursor:pointer}
+#toast.err{background:var(--red);color:#fff}
+
+dialog{border:0;border-radius:20px;padding:0;background:var(--card);color:var(--ink);width:min(520px,calc(100vw - 28px));box-shadow:0 30px 80px -20px rgba(0,0,0,.5)}
+dialog::backdrop{background:rgba(0,0,0,.35);backdrop-filter:blur(3px)}
+.dlg{padding:24px}
+.dlg h3{margin:0 0 6px;font-size:20px;letter-spacing:-.02em}
+.dlg p{color:var(--ink2);font-size:14px;margin:8px 0}
+.dlg ol{color:var(--ink2);font-size:14px;padding-left:20px;margin:8px 0 14px}
+.dlg ol li{margin:4px 0}
+.dlg label{display:block;font-size:12px;font-weight:600;color:var(--ink3);margin:12px 0 5px}
+.dlg input{width:100%;border:1px solid var(--line);background:var(--fill);color:var(--ink);border-radius:10px;padding:10px 12px;font:14px ui-monospace,SFMono-Regular,Menlo,monospace}
+.dlg .row-btns{display:flex;gap:8px;justify-content:flex-end;margin-top:18px;flex-wrap:wrap}
+.btn{border:0;border-radius:10px;padding:10px 16px;font-weight:600;font-size:14px;cursor:pointer;background:var(--fill2)}
+.btn.primary{background:var(--blue);color:#fff}
+.btn.danger{color:var(--red)}
+.note{font-size:12.5px;color:var(--ink3)}
+.msg{font-size:13px;margin-top:10px;min-height:1em}
+.msg.err{color:var(--red)} .msg.ok{color:var(--green)}
+.hlist{max-height:55vh;overflow:auto;margin:10px -24px 0;border-top:1px solid var(--line)}
+.hrow{display:flex;gap:10px;align-items:center;padding:10px 24px;border-bottom:1px solid var(--line);font-size:13px}
+.hrow .t{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink2)}
+.hrow button{flex-shrink:0}
+#boot{padding:80px 20px;text-align:center;color:var(--ink3)}
+@media (max-width:520px){.card-head,.vt,.stats,.tools{padding-left:16px;padding-right:16px}.row a{padding:13px 16px}.legend{padding-left:16px;padding-right:16px}.stat .v{font-size:19px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body class="notranslate" translate="no">
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Vintage Game Sales</h1>
+      <p class="lede" id="lede">Sold prices for complete-in-box early prints, from <b>Yahoo! Auctions</b>, <b>Yahoo!フリマ</b> and <b>Mercari</b>.</p>
+    </div>
+    <div class="controls">
+      <div class="seg" id="cur" role="group" aria-label="Currency">
+        <button data-c="JPY" aria-pressed="true">¥</button><button data-c="USD" aria-pressed="false">US$</button><button data-c="CAD" aria-pressed="false">C$</button>
+      </div>
+      <button class="icon-btn lock" id="ownerBtn" aria-label="Owner sign-in" title="Owner sign-in">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>
+      </button>
+    </div>
+  </header>
+  <main class="cols" id="cols"><div id="boot">Loading sales…</div></main>
+  <footer id="foot"></footer>
+</div>
+
+<div id="toast" role="status" aria-live="polite"><span id="toastMsg"></span><button id="toastBtn" hidden>Undo</button></div>
+
+<dialog id="ownerDlg">
+  <form class="dlg" method="dialog" id="ownerForm">
+    <h3>Owner mode</h3>
+    <p>Lets you hide wrong listings (✕) and confirm ones that need review (✓). Each click is saved straight to your GitHub repo, so it applies everywhere and future scrapes respect it. Visitors never see these buttons.</p>
+    <ol>
+      <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → new fine-grained token</a>.</li>
+      <li>Repository access: <b>Only select repositories</b> → this repo.</li>
+      <li>Permissions → Repository → <b>Contents: Read and write</b>. Nothing else.</li>
+      <li>Generate, copy, paste below. Do this once on each device you use.</li>
+    </ol>
+    <label for="repoIn">Repository (owner/name)</label>
+    <input id="repoIn" autocomplete="off" spellcheck="false" placeholder="yourname/vintage-game-tracker">
+    <label for="tokIn">Token</label>
+    <input id="tokIn" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
+    <p class="note">Stored only in this browser. Scope it to this one repo and you can revoke it any time on GitHub.</p>
+    <div class="msg" id="ownerMsg"></div>
+    <div class="row-btns">
+      <button class="btn danger" type="button" id="signOut">Sign out</button>
+      <button class="btn" type="button" id="ownerCancel">Cancel</button>
+      <button class="btn primary" type="submit" id="ownerSave">Connect</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="hiddenDlg">
+  <div class="dlg">
+    <h3>Hidden listings</h3>
+    <p>These never appear on the charts or lists. Restore one if you hid it by mistake.</p>
+    <div class="hlist" id="hlist"></div>
+    <div class="row-btns"><button class="btn" type="button" id="hiddenClose">Done</button></div>
+  </div>
+</dialog>
+
+<script src="assets/chart.umd.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
