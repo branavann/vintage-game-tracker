@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-12T22:11",
+ "generated_at": "2026-11-13T04:11",
  "timezone": "Asia/Tokyo",
  "fx": {
-  "CAD": 111.863,
-  "USD": 159.233,
-  "note": "ECB rate 2026-11-11"
+  "CAD": 112.077,
+  "USD": 159.696,
+  "note": "ECB rate 2026-11-12"
  },
  "last_run": {
-  "at": "2026-11-12T22:09",
+  "at": "2026-11-13T04:09",
   "sources": {
    "Yahoo Auction": {
     "fetched": 291
@@ -16,8 +16,8 @@
     "fetched": 164
    },
    "Mercari": {
-    "fetched": 1892,
-    "new": 997,
+    "fetched": 1898,
+    "new": 1000,
     "dates_improved": 0,
     "status": "ok"
    }
@@ -84,6 +84,22 @@
   }
  ],
  "sales": [
+  {
+   "id": "m43174455148",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": "22",
+   "title": "ポケットモンスター 赤 ゲームボーイ バーコード大 初期ロット 刻印22",
+   "price": 45000,
+   "bids": 0,
+   "closed_at": "2026-11-12T23:30",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m43174455148",
+   "source": "Mercari"
+  },
   {
    "id": "m47303965812",
    "title_key": "smb-nobarcode",
