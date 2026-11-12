@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T11:52",
+ "generated_at": "2026-11-12T22:11",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 111.863,
@@ -7,22 +7,22 @@
   "note": "ECB rate 2026-11-11"
  },
  "last_run": {
-  "at": "2026-11-12T11:49",
+  "at": "2026-11-12T22:09",
   "sources": {
    "Yahoo Auction": {
-    "fetched": 350
+    "fetched": 291
    },
    "Yahoo Flea": {
-    "fetched": 198
+    "fetched": 164
    },
    "Mercari": {
-    "fetched": 1890,
-    "new": 1277,
-    "dates_improved": 86,
+    "fetched": 1892,
+    "new": 997,
+    "dates_improved": 0,
     "status": "ok"
    }
   },
-  "yahoo_new": 177
+  "yahoo_new": 119
  },
  "titles": [
   {
@@ -85,6 +85,38 @@
  ],
  "sales": [
   {
+   "id": "m47303965812",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "超希少 初期 ファミコン スーパーマリオブラザーズ バーコードなし 説明書誤植",
+   "price": 45000,
+   "bids": 0,
+   "closed_at": "2026-11-12T21:12",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m47303965812",
+   "source": "Mercari"
+  },
+  {
+   "id": "m69549097899",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "【初期版】スーパーマリオブラザーズ ファミコンソフト説明書誤植バーコード無し",
+   "price": 73000,
+   "bids": 0,
+   "closed_at": "2026-11-12T17:06",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m69549097899",
+   "source": "Mercari"
+  },
+  {
    "id": "m15397455853",
    "title_key": "pokemon-green",
    "variant_key": "with-postcard",
@@ -131,38 +163,6 @@
    "date_basis": "auction_end",
    "url": "https://paypayfleamarket.yahoo.co.jp/item/z719135010",
    "source": "Yahoo Flea"
-  },
-  {
-   "id": "m47303965812",
-   "title_key": "smb-nobarcode",
-   "variant_key": "no-errata",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": null,
-   "title": "超希少 初期 ファミコン スーパーマリオブラザーズ バーコードなし 説明書誤植",
-   "price": 45000,
-   "bids": 0,
-   "closed_at": "2026-11-11T13:30",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m47303965812",
-   "source": "Mercari"
-  },
-  {
-   "id": "m69549097899",
-   "title_key": "smb-nobarcode",
-   "variant_key": "no-errata",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": null,
-   "title": "【初期版】スーパーマリオブラザーズ ファミコンソフト説明書誤植バーコード無し",
-   "price": 73000,
-   "bids": 0,
-   "closed_at": "2026-11-10T22:59",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m69549097899",
-   "source": "Mercari"
   },
   {
    "id": "m81528476648",
