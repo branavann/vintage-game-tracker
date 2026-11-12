@@ -83,6 +83,16 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
 HEADERS = {"User-Agent": UA, "Accept-Language": "ja,en;q=0.8"}
 IN_ACTIONS = os.environ.get("GITHUB_ACTIONS") == "true"
+DEBUG_DIR = ROOT / "debug"
+
+
+def dump(name: str, text: str) -> None:
+    """Save a page that didn't parse, so the GitHub run's 'debug' download shows what the site sent."""
+    try:
+        DEBUG_DIR.mkdir(exist_ok=True)
+        (DEBUG_DIR / name).write_text(text, encoding="utf-8")
+    except OSError:
+        pass
 
 
 def now_jst() -> datetime:
@@ -390,6 +400,8 @@ def fetch_yahoo(term: str, max_pages: int, stop_before: Optional[datetime]) -> l
         if not html:
             break
         rows = parse_yahoo_closed(html)
+        if p == 0 and not rows:
+            dump(f"yahoo-{abs(hash(term)) % 10**6}.html", html)
         out.extend(rows)
         if len(rows) < 40:          # last page (a few cards lack a parsable price, hence < 50)
             break
@@ -509,6 +521,12 @@ def fetch_mercari(terms: list[str], max_pages: int, known: dict[str, dict]) -> t
                 except Exception as exc:
                     warn("Mercari error", f"'{term}' page {pno + 1}: {exc}")
                 if data is None:
+                    try:
+                        dump(f"mercari-{abs(hash(term)) % 10**6}.html", page.content())
+                        DEBUG_DIR.mkdir(exist_ok=True)
+                        page.screenshot(path=str(DEBUG_DIR / f"mercari-{abs(hash(term)) % 10**6}.png"))
+                    except Exception:
+                        pass
                     # Fallback: parse whatever rendered.
                     try:
                         page.wait_for_selector("a[href*='/item/'], a[href*='/shops/product/']", timeout=15000)
@@ -752,17 +770,22 @@ def main() -> None:
         a, u = merge(store, import_legacy(Path(f)))
         log(f"Imported {f}: {a} new, {u} improved")
 
+    total_fetched = 0
     if not args.offline:
         terms = [t for spec in TITLES for t in spec.search_terms]
 
         if not args.no_yahoo:
-            yahoo_known = [r["closed_at"] for r in store.values() if r["date_basis"] == "auction_end"]
-            stop_before = None if (args.full or not yahoo_known) else max(yahoo_known) - timedelta(days=2)
             fetched = []
-            for term in terms:
-                rows = fetch_yahoo(term, args.yahoo_pages, stop_before)
-                log(f"    Yahoo '{term}': {len(rows)} closed listings")
-                fetched.extend(rows)
+            try:
+                yahoo_known = [r["closed_at"] for r in store.values() if r["date_basis"] == "auction_end"]
+                stop_before = None if (args.full or not yahoo_known) else max(yahoo_known) - timedelta(days=2)
+                for term in terms:
+                    rows = fetch_yahoo(term, args.yahoo_pages, stop_before)
+                    log(f"    Yahoo '{term}': {len(rows)} closed listings")
+                    fetched.extend(rows)
+                    total_fetched += len(rows)
+            except Exception as exc:
+                warn("Yahoo crashed", repr(exc))
             a, u = merge(store, fetched)
             by_src = Counter(r["source"] for r in fetched)
             for src in ("Yahoo Auction", "Yahoo Flea"):
@@ -772,8 +795,13 @@ def main() -> None:
                 warn("Yahoo", "0 listings fetched from Yahoo -- possibly blocked from this network")
 
         if not args.no_mercari:
-            rows, status = fetch_mercari(terms, args.mercari_pages, store)
+            try:
+                rows, status = fetch_mercari(terms, args.mercari_pages, store)
+            except Exception as exc:
+                warn("Mercari crashed", repr(exc))
+                rows, status = [], f"crashed: {type(exc).__name__}"
             a, u = merge(store, rows)
+            total_fetched += len(rows)
             run["sources"]["Mercari"] = {"fetched": len(rows), "new": a, "dates_improved": u, "status": status}
             if not rows:
                 warn("Mercari", f"0 sold items fetched (status: {status}) -- Mercari may be blocking this network")
@@ -809,6 +837,9 @@ def main() -> None:
         log("Not stored (dropped by the classifier):")
         for reason, n in rejections.most_common():
             log(f"  - {reason}: {n}")
+    if not args.offline and not args.add and not args.imports and total_fetched == 0:
+        warn("Nothing fetched", "Every marketplace returned 0 listings. Marking this run as failed so GitHub emails you.")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -175,6 +175,14 @@ function renderLede() {
   const hrs = Math.max(0, Math.round((Date.now() - toMs(g)) / 36e5));
   const ago = hrs < 1 ? 'less than an hour ago' : hrs < 48 ? `${hrs} h ago` : `${Math.round(hrs / 24)} days ago`;
   $('#lede').innerHTML = `Sold prices for complete-in-box early prints, from <b>Yahoo! Auctions</b>, <b>Yahoo!フリマ</b> and <b>Mercari</b>. Updated ${ago}.`;
+  // The scraper runs every 6 h. More than 18 h without an update means runs are failing or switched off.
+  const stale = $('#stale');
+  if (hrs >= 18) {
+    const actions = REPO ? `https://github.com/${REPO}/actions` : '';
+    stale.innerHTML = `<b>These prices haven't updated in ${hrs < 48 ? hrs + ' hours' : Math.round(hrs / 24) + ' days'}.</b> The scraper normally runs every 6 hours, so something is stopping it.` +
+      (actions ? ` <a href="${actions}" target="_blank" rel="noopener">Check the runs on GitHub →</a>` : '');
+    stale.hidden = false;
+  } else stale.hidden = true;
 }
 
 function renderCard(t) {
