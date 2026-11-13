@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-13T15:47",
+ "generated_at": "2026-11-14T04:45",
  "timezone": "Asia/Tokyo",
  "fx": {
-  "CAD": 112.077,
-  "USD": 159.696,
-  "note": "ECB rate 2026-11-12"
+  "CAD": 112.216,
+  "USD": 159.997,
+  "note": "ECB rate 2026-11-13"
  },
  "last_run": {
-  "at": "2026-11-13T15:45",
+  "at": "2026-11-14T04:43",
   "sources": {
    "Yahoo Auction": {
-    "fetched": 291
+    "fetched": 292
    },
    "Yahoo Flea": {
-    "fetched": 164
+    "fetched": 163
    },
    "Mercari": {
     "fetched": 1900,
@@ -84,6 +84,38 @@
   }
  ],
  "sales": [
+  {
+   "id": "z668342114",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": null,
+   "title": "【貴重初期ロット】ポケットモンスター 緑ゲームボーイ",
+   "price": 55000,
+   "bids": 0,
+   "closed_at": "2026-11-13T23:23",
+   "date_basis": "auction_end",
+   "url": "https://paypayfleamarket.yahoo.co.jp/item/z668342114",
+   "source": "Yahoo Flea"
+  },
+  {
+   "id": "h1251309385",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "review",
+   "review_reason": "barcode size not stated",
+   "stamp": "22",
+   "title": "ポケットモンスター 赤 刻印22 動作確認済 ゲームボーイ ソフト 箱・説明書付き 任天堂",
+   "price": 76364,
+   "bids": 2,
+   "closed_at": "2026-11-13T22:52",
+   "date_basis": "auction_end",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/h1251309385",
+   "source": "Yahoo Auction"
+  },
   {
    "id": "m43174455148",
    "title_key": "pokemon-red",
