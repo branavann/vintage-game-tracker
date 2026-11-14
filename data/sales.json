@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T04:45",
+ "generated_at": "2026-11-14T15:25",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 112.216,
@@ -7,7 +7,7 @@
   "note": "ECB rate 2026-11-13"
  },
  "last_run": {
-  "at": "2026-11-14T04:43",
+  "at": "2026-11-14T15:23",
   "sources": {
    "Yahoo Auction": {
     "fetched": 292
@@ -22,7 +22,7 @@
     "status": "ok"
    }
   },
-  "yahoo_new": 119
+  "yahoo_new": 118
  },
  "titles": [
   {
