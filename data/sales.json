@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T07:27",
+ "generated_at": "2026-11-15T15:34",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 112.216,
@@ -7,16 +7,16 @@
   "note": "ECB rate 2026-11-13"
  },
  "last_run": {
-  "at": "2026-11-15T07:25",
+  "at": "2026-11-15T15:32",
   "sources": {
    "Yahoo Auction": {
     "fetched": 291
    },
    "Yahoo Flea": {
-    "fetched": 164
+    "fetched": 162
    },
    "Mercari": {
-    "fetched": 1899,
+    "fetched": 1898,
     "new": 1004,
     "dates_improved": 0,
     "status": "ok"
@@ -84,6 +84,38 @@
   }
  ],
  "sales": [
+  {
+   "id": "m51133254972",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "review",
+   "review_reason": "barcode size not stated",
+   "stamp": "22",
+   "title": "ポケットモンスター 赤 ゲームボーイ GB 箱・説明書 刻印22A 動作確認済み",
+   "price": 7000,
+   "bids": 0,
+   "closed_at": "2026-11-15T14:36",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m51133254972",
+   "source": "Mercari"
+  },
+  {
+   "id": "m15397455853",
+   "title_key": "pokemon-green",
+   "variant_key": "with-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": "00",
+   "title": "ハガキ付 付属品完備 初期 ポケモン 緑 ゲームボーイ 刻印00 バーコード大",
+   "price": 358000,
+   "bids": 0,
+   "closed_at": "2026-11-15T10:50",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m15397455853",
+   "source": "Mercari"
+  },
   {
    "id": "z668342114",
    "title_key": "pokemon-green",
@@ -162,22 +194,6 @@
    "closed_at": "2026-11-12T17:06",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m69549097899",
-   "source": "Mercari"
-  },
-  {
-   "id": "m15397455853",
-   "title_key": "pokemon-green",
-   "variant_key": "with-postcard",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": "00",
-   "title": "ハガキ付 付属品完備 初期 ポケモン 緑 ゲームボーイ 刻印00 バーコード大",
-   "price": 358000,
-   "bids": 0,
-   "closed_at": "2026-11-11T19:57",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m15397455853",
    "source": "Mercari"
   },
   {
