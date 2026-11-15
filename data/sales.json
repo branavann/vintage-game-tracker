@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T15:34",
+ "generated_at": "2026-11-16T03:54",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 112.216,
@@ -7,22 +7,22 @@
   "note": "ECB rate 2026-11-13"
  },
  "last_run": {
-  "at": "2026-11-15T15:32",
+  "at": "2026-11-16T03:52",
   "sources": {
    "Yahoo Auction": {
-    "fetched": 291
+    "fetched": 292
    },
    "Yahoo Flea": {
     "fetched": 162
    },
    "Mercari": {
-    "fetched": 1898,
+    "fetched": 1899,
     "new": 1004,
     "dates_improved": 0,
     "status": "ok"
    }
   },
-  "yahoo_new": 118
+  "yahoo_new": 119
  },
  "titles": [
   {
@@ -84,6 +84,22 @@
   }
  ],
  "sales": [
+  {
+   "id": "m63422718094",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "review",
+   "review_reason": "priced like a copy with errata sheet (3× the typical ¥50,000) — check photos for an unlisted errata sheet",
+   "stamp": null,
+   "title": "スーパーマリオブラザーズ バーコード無し 説明書花火5000点誤植版 美品",
+   "price": 180000,
+   "bids": 0,
+   "closed_at": "2026-11-16T00:04",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m63422718094",
+   "source": "Mercari"
+  },
   {
    "id": "m51133254972",
    "title_key": "pokemon-red",
