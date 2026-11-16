@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T03:54",
+ "generated_at": "2026-11-16T15:32",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 112.216,
@@ -7,7 +7,7 @@
   "note": "ECB rate 2026-11-13"
  },
  "last_run": {
-  "at": "2026-11-16T03:52",
+  "at": "2026-11-16T15:29",
   "sources": {
    "Yahoo Auction": {
     "fetched": 292
@@ -16,8 +16,8 @@
     "fetched": 162
    },
    "Mercari": {
-    "fetched": 1899,
-    "new": 1004,
+    "fetched": 1906,
+    "new": 1008,
     "dates_improved": 0,
     "status": "ok"
    }
@@ -85,6 +85,38 @@
  ],
  "sales": [
   {
+   "id": "m38749795439",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "超希少 初期 ファミコン スーパーマリオブラザーズ バーコードなし 説明書誤植",
+   "price": 35000,
+   "bids": 0,
+   "closed_at": "2026-11-16T11:10",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m38749795439",
+   "source": "Mercari"
+  },
+  {
+   "id": "m68210172142",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": "00",
+   "title": "刻印00 バーコード大 ゲームボーイ ポケットモンスター 赤 動作確認済み",
+   "price": 98000,
+   "bids": 0,
+   "closed_at": "2026-11-16T10:52",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m68210172142",
+   "source": "Mercari"
+  },
+  {
    "id": "m63422718094",
    "title_key": "smb-nobarcode",
    "variant_key": "no-errata",
@@ -95,7 +127,7 @@
    "title": "スーパーマリオブラザーズ バーコード無し 説明書花火5000点誤植版 美品",
    "price": 180000,
    "bids": 0,
-   "closed_at": "2026-11-16T00:04",
+   "closed_at": "2026-11-16T07:02",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m63422718094",
    "source": "Mercari"
