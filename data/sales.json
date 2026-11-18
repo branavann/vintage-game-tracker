@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-11-18T16:30",
+ "generated_at": "2026-11-19T05:33",
  "timezone": "Asia/Tokyo",
  "fx": {
-  "CAD": 111.468,
-  "USD": 159.297,
-  "note": "ECB rate 2026-11-17"
+  "CAD": 111.44,
+  "USD": 159.418,
+  "note": "ECB rate 2026-11-18"
  },
  "last_run": {
-  "at": "2026-11-18T16:28",
+  "at": "2026-11-19T05:31",
   "sources": {
    "Yahoo Auction": {
-    "fetched": 292
+    "fetched": 295
    },
    "Yahoo Flea": {
-    "fetched": 162
+    "fetched": 159
    },
    "Mercari": {
-    "fetched": 1920,
+    "fetched": 1923,
     "new": 1016,
     "dates_improved": 0,
     "status": "ok"
    }
   },
-  "yahoo_new": 119
+  "yahoo_new": 120
  },
  "titles": [
   {
@@ -84,6 +84,38 @@
   }
  ],
  "sales": [
+  {
+   "id": "m86634144549",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": "00",
+   "title": "ポケットモンスター 緑 初期ロット00 ポケモン",
+   "price": 2650,
+   "bids": 0,
+   "closed_at": "2026-11-19T00:06",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m86634144549",
+   "source": "Mercari"
+  },
+  {
+   "id": "m45506943554",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "稀少 ファミコン スーパーマリオブラザーズ バーコード無し 説明書5000点誤植",
+   "price": 29800,
+   "bids": 0,
+   "closed_at": "2026-11-18T20:58",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m45506943554",
+   "source": "Mercari"
+  },
   {
    "id": "m35818086611",
    "title_key": "pokemon-green",
@@ -178,22 +210,6 @@
    "closed_at": "2026-11-17T17:01",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m38749795439",
-   "source": "Mercari"
-  },
-  {
-   "id": "m86634144549",
-   "title_key": "pokemon-green",
-   "variant_key": "no-postcard",
-   "condition": "unknown",
-   "status": "review",
-   "review_reason": "box not mentioned · barcode size not stated",
-   "stamp": "00",
-   "title": "ポケットモンスター 緑 初期ロット00 ポケモン",
-   "price": 2650,
-   "bids": 0,
-   "closed_at": "2026-11-17T12:25",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m86634144549",
    "source": "Mercari"
   },
   {
