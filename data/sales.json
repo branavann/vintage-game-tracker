@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-19T16:27",
+ "generated_at": "2026-11-20T05:39",
  "timezone": "Asia/Tokyo",
  "fx": {
-  "CAD": 111.44,
-  "USD": 159.418,
-  "note": "ECB rate 2026-11-18"
+  "CAD": 111.864,
+  "USD": 159.972,
+  "note": "ECB rate 2026-11-19"
  },
  "last_run": {
-  "at": "2026-11-19T16:25",
+  "at": "2026-11-20T05:37",
   "sources": {
    "Yahoo Auction": {
     "fetched": 292
@@ -16,8 +16,8 @@
     "fetched": 162
    },
    "Mercari": {
-    "fetched": 1929,
-    "new": 1019,
+    "fetched": 1932,
+    "new": 1018,
     "dates_improved": 0,
     "status": "ok"
    }
@@ -84,6 +84,22 @@
   }
  ],
  "sales": [
+  {
+   "id": "m35828941264",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": "22",
+   "title": "ま*る様 ポケモン 赤 初期ロット 刻印22",
+   "price": 1500,
+   "bids": 0,
+   "closed_at": "2026-11-19T23:43",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m35828941264",
+   "source": "Mercari"
+  },
   {
    "id": "m43174455148",
    "title_key": "pokemon-red",
