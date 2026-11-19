@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T05:33",
+ "generated_at": "2026-11-19T16:27",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 111.44,
@@ -7,22 +7,22 @@
   "note": "ECB rate 2026-11-18"
  },
  "last_run": {
-  "at": "2026-11-19T05:31",
+  "at": "2026-11-19T16:25",
   "sources": {
    "Yahoo Auction": {
-    "fetched": 295
+    "fetched": 292
    },
    "Yahoo Flea": {
-    "fetched": 159
+    "fetched": 162
    },
    "Mercari": {
-    "fetched": 1923,
-    "new": 1016,
+    "fetched": 1929,
+    "new": 1019,
     "dates_improved": 0,
     "status": "ok"
    }
   },
-  "yahoo_new": 120
+  "yahoo_new": 119
  },
  "titles": [
   {
@@ -85,19 +85,67 @@
  ],
  "sales": [
   {
-   "id": "m86634144549",
-   "title_key": "pokemon-green",
+   "id": "m43174455148",
+   "title_key": "pokemon-red",
    "variant_key": "no-postcard",
-   "condition": "unknown",
-   "status": "review",
-   "review_reason": "box not mentioned · barcode size not stated",
-   "stamp": "00",
-   "title": "ポケットモンスター 緑 初期ロット00 ポケモン",
-   "price": 2650,
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": "22",
+   "title": "ポケットモンスター 赤 ゲームボーイ バーコード大 初期ロット 刻印22",
+   "price": 45000,
    "bids": 0,
-   "closed_at": "2026-11-19T00:06",
+   "closed_at": "2026-11-19T14:55",
    "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m86634144549",
+   "url": "https://jp.mercari.com/item/m43174455148",
+   "source": "Mercari"
+  },
+  {
+   "id": "m25795498152",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "超希少 初期 ファミコン スーパーマリオブラザーズ バーコードなし 説明書誤植",
+   "price": 68000,
+   "bids": 0,
+   "closed_at": "2026-11-19T14:41",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m25795498152",
+   "source": "Mercari"
+  },
+  {
+   "id": "m57900226129",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "review",
+   "review_reason": "barcode size not stated",
+   "stamp": "22",
+   "title": "ポケットモンスター 赤 ゲームボーイ GB 箱・説明書 刻印22A 動作確認済み",
+   "price": 5980,
+   "bids": 0,
+   "closed_at": "2026-11-19T12:01",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m57900226129",
+   "source": "Mercari"
+  },
+  {
+   "id": "m54238341333",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "初期 ファミコン スーパーマリオブラザーズ バーコードなし 説明書誤植",
+   "price": 33800,
+   "bids": 0,
+   "closed_at": "2026-11-19T07:30",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m54238341333",
    "source": "Mercari"
   },
   {
@@ -111,9 +159,25 @@
    "title": "稀少 ファミコン スーパーマリオブラザーズ バーコード無し 説明書5000点誤植",
    "price": 29800,
    "bids": 0,
-   "closed_at": "2026-11-18T20:58",
+   "closed_at": "2026-11-19T07:06",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m45506943554",
+   "source": "Mercari"
+  },
+  {
+   "id": "m86634144549",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": "00",
+   "title": "ポケットモンスター 緑 初期ロット00 ポケモン",
+   "price": 2650,
+   "bids": 0,
+   "closed_at": "2026-11-19T00:06",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m86634144549",
    "source": "Mercari"
   },
   {
@@ -242,22 +306,6 @@
    "closed_at": "2026-11-16T20:31",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m17986554752",
-   "source": "Mercari"
-  },
-  {
-   "id": "m43174455148",
-   "title_key": "pokemon-red",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": "22",
-   "title": "ポケットモンスター 赤 ゲームボーイ バーコード大 初期ロット 刻印22",
-   "price": 45000,
-   "bids": 0,
-   "closed_at": "2026-11-16T18:11",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m43174455148",
    "source": "Mercari"
   },
   {
