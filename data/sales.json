@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T05:39",
+ "generated_at": "2026-11-20T16:17",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 111.864,
@@ -7,7 +7,7 @@
   "note": "ECB rate 2026-11-19"
  },
  "last_run": {
-  "at": "2026-11-20T05:37",
+  "at": "2026-11-20T16:15",
   "sources": {
    "Yahoo Auction": {
     "fetched": 292
@@ -16,8 +16,8 @@
     "fetched": 162
    },
    "Mercari": {
-    "fetched": 1932,
-    "new": 1018,
+    "fetched": 1936,
+    "new": 1019,
     "dates_improved": 0,
     "status": "ok"
    }
@@ -85,6 +85,54 @@
  ],
  "sales": [
   {
+   "id": "m12202999198",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": "00",
+   "title": "ポケットモンスター 緑 初期ロット刻印00 ①",
+   "price": 11990,
+   "bids": 0,
+   "closed_at": "2026-11-20T11:15",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m12202999198",
+   "source": "Mercari"
+  },
+  {
+   "id": "m57900226129",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "review",
+   "review_reason": "barcode size not stated",
+   "stamp": "22",
+   "title": "ポケットモンスター 赤 ゲームボーイ GB 箱・説明書 刻印22A 動作確認済み",
+   "price": 5980,
+   "bids": 0,
+   "closed_at": "2026-11-20T09:07",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m57900226129",
+   "source": "Mercari"
+  },
+  {
+   "id": "m54238341333",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "初期 ファミコン スーパーマリオブラザーズ バーコードなし 説明書誤植",
+   "price": 33800,
+   "bids": 0,
+   "closed_at": "2026-11-20T07:03",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m54238341333",
+   "source": "Mercari"
+  },
+  {
    "id": "m35828941264",
    "title_key": "pokemon-red",
    "variant_key": "no-postcard",
@@ -130,38 +178,6 @@
    "closed_at": "2026-11-19T14:41",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m25795498152",
-   "source": "Mercari"
-  },
-  {
-   "id": "m57900226129",
-   "title_key": "pokemon-red",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "review",
-   "review_reason": "barcode size not stated",
-   "stamp": "22",
-   "title": "ポケットモンスター 赤 ゲームボーイ GB 箱・説明書 刻印22A 動作確認済み",
-   "price": 5980,
-   "bids": 0,
-   "closed_at": "2026-11-19T12:01",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m57900226129",
-   "source": "Mercari"
-  },
-  {
-   "id": "m54238341333",
-   "title_key": "smb-nobarcode",
-   "variant_key": "no-errata",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": null,
-   "title": "初期 ファミコン スーパーマリオブラザーズ バーコードなし 説明書誤植",
-   "price": 33800,
-   "bids": 0,
-   "closed_at": "2026-11-19T07:30",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m54238341333",
    "source": "Mercari"
   },
   {
