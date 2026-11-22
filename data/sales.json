@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T04:18",
+ "generated_at": "2026-11-22T15:50",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 110.888,
@@ -7,7 +7,7 @@
   "note": "ECB rate 2026-11-20"
  },
  "last_run": {
-  "at": "2026-11-22T04:15",
+  "at": "2026-11-22T15:48",
   "sources": {
    "Yahoo Auction": {
     "fetched": 295
@@ -16,8 +16,8 @@
     "fetched": 161
    },
    "Mercari": {
-    "fetched": 1968,
-    "new": 1030,
+    "fetched": 1966,
+    "new": 1024,
     "dates_improved": 0,
     "status": "ok"
    }
@@ -85,6 +85,38 @@
  ],
  "sales": [
   {
+   "id": "m19678054713",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": "00",
+   "title": "【美品】初期 00A ポケットモンスター 緑 バーコード大 付属品全て有り",
+   "price": 58000,
+   "bids": 0,
+   "closed_at": "2026-11-22T15:41",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m19678054713",
+   "source": "Mercari"
+  },
+  {
+   "id": "m12202999198",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": "00",
+   "title": "ポケットモンスター 緑 初期ロット刻印00 ①",
+   "price": 11990,
+   "bids": 0,
+   "closed_at": "2026-11-22T12:28",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m12202999198",
+   "source": "Mercari"
+  },
+  {
    "id": "m58822997903",
    "title_key": "pokemon-green",
    "variant_key": "no-postcard",
@@ -95,9 +127,25 @@
    "title": "ポケットモンスター 緑 ポケモン ゲームボーイ ソフト バーコード大",
    "price": 48000,
    "bids": 0,
-   "closed_at": "2026-11-22T01:58",
+   "closed_at": "2026-11-22T10:54",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m58822997903",
+   "source": "Mercari"
+  },
+  {
+   "id": "m52850197587",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "review",
+   "review_reason": "barcode size not stated",
+   "stamp": "22",
+   "title": "任天堂 ゲームボーイ ポケットモンスター 赤 レッド 箱付き 刻印22A",
+   "price": 11999,
+   "bids": 0,
+   "closed_at": "2026-11-22T08:10",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m52850197587",
    "source": "Mercari"
   },
   {
@@ -194,22 +242,6 @@
    "closed_at": "2026-11-21T16:01",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m54238341333",
-   "source": "Mercari"
-  },
-  {
-   "id": "m52850197587",
-   "title_key": "pokemon-red",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "review",
-   "review_reason": "barcode size not stated",
-   "stamp": "22",
-   "title": "任天堂 ゲームボーイ ポケットモンスター 赤 レッド 箱付き 刻印22A",
-   "price": 11999,
-   "bids": 0,
-   "closed_at": "2026-11-21T12:46",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m52850197587",
    "source": "Mercari"
   },
   {
@@ -373,22 +405,6 @@
    "source": "Mercari"
   },
   {
-   "id": "m12202999198",
-   "title_key": "pokemon-green",
-   "variant_key": "no-postcard",
-   "condition": "unknown",
-   "status": "review",
-   "review_reason": "box not mentioned · barcode size not stated",
-   "stamp": "00",
-   "title": "ポケットモンスター 緑 初期ロット刻印00 ①",
-   "price": 11990,
-   "bids": 0,
-   "closed_at": "2026-11-20T11:15",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m12202999198",
-   "source": "Mercari"
-  },
-  {
    "id": "m57900226129",
    "title_key": "pokemon-red",
    "variant_key": "no-postcard",
@@ -450,22 +466,6 @@
    "closed_at": "2026-11-18T09:22",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m51133254972",
-   "source": "Mercari"
-  },
-  {
-   "id": "m19678054713",
-   "title_key": "pokemon-green",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": "00",
-   "title": "【美品】初期 00A ポケットモンスター 緑 バーコード大 付属品全て有り",
-   "price": 58000,
-   "bids": 0,
-   "closed_at": "2026-11-18T09:05",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m19678054713",
    "source": "Mercari"
   },
   {
