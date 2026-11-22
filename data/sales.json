@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T15:50",
+ "generated_at": "2026-11-23T04:42",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 110.888,
@@ -7,22 +7,22 @@
   "note": "ECB rate 2026-11-20"
  },
  "last_run": {
-  "at": "2026-11-22T15:48",
+  "at": "2026-11-23T04:39",
   "sources": {
    "Yahoo Auction": {
-    "fetched": 295
+    "fetched": 294
    },
    "Yahoo Flea": {
-    "fetched": 161
+    "fetched": 163
    },
    "Mercari": {
-    "fetched": 1966,
-    "new": 1024,
+    "fetched": 1970,
+    "new": 1027,
     "dates_improved": 0,
     "status": "ok"
    }
   },
-  "yahoo_new": 120
+  "yahoo_new": 123
  },
  "titles": [
   {
@@ -84,6 +84,54 @@
   }
  ],
  "sales": [
+  {
+   "id": "p1252548547",
+   "title_key": "smb-nobarcode",
+   "variant_key": "with-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "FC 美品 スーパーマリオブラザーズ バーコードなし 5000点花火誤植 箱説付き 正誤表",
+   "price": 295000,
+   "bids": 22,
+   "closed_at": "2026-11-22T22:40",
+   "date_basis": "auction_end",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/p1252548547",
+   "source": "Yahoo Auction"
+  },
+  {
+   "id": "m86384716526",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "【希少】スーパーマリオブラザーズ 初期版 5000点誤植 バーコードなし",
+   "price": 44800,
+   "bids": 0,
+   "closed_at": "2026-11-22T21:00",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m86384716526",
+   "source": "Mercari"
+  },
+  {
+   "id": "m44696718043",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "【初期版バーコード大】ポケットモンスター 緑 A",
+   "price": 33000,
+   "bids": 0,
+   "closed_at": "2026-11-22T16:11",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m44696718043",
+   "source": "Mercari"
+  },
   {
    "id": "m19678054713",
    "title_key": "pokemon-green",
@@ -194,22 +242,6 @@
    "closed_at": "2026-11-21T23:34",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m91470134078",
-   "source": "Mercari"
-  },
-  {
-   "id": "m44696718043",
-   "title_key": "pokemon-green",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": null,
-   "title": "【初期版バーコード大】ポケットモンスター 緑 A",
-   "price": 33000,
-   "bids": 0,
-   "closed_at": "2026-11-21T22:35",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m44696718043",
    "source": "Mercari"
   },
   {
