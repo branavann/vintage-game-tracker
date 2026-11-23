@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-23T16:41",
+ "generated_at": "2026-11-24T08:55",
  "timezone": "Asia/Tokyo",
  "fx": {
-  "CAD": 110.888,
-  "USD": 158.645,
-  "note": "ECB rate 2026-11-20"
+  "CAD": 110.757,
+  "USD": 159.074,
+  "note": "ECB rate 2026-11-23"
  },
  "last_run": {
-  "at": "2026-11-23T16:38",
+  "at": "2026-11-24T08:53",
   "sources": {
    "Yahoo Auction": {
     "fetched": 294
@@ -17,7 +17,7 @@
    },
    "Mercari": {
     "fetched": 1973,
-    "new": 1028,
+    "new": 1027,
     "dates_improved": 0,
     "status": "ok"
    }
@@ -84,6 +84,54 @@
   }
  ],
  "sales": [
+  {
+   "id": "m58822997903",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "ポケットモンスター 緑 ポケモン ゲームボーイ ソフト バーコード大",
+   "price": 48000,
+   "bids": 0,
+   "closed_at": "2026-11-23T23:05",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m58822997903",
+   "source": "Mercari"
+  },
+  {
+   "id": "m91470134078",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": "00",
+   "title": "「ポケットモンスター 緑」初期ロット 00",
+   "price": 3000,
+   "bids": 0,
+   "closed_at": "2026-11-23T20:10",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m91470134078",
+   "source": "Mercari"
+  },
+  {
+   "id": "m44696718043",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "【初期版バーコード大】ポケットモンスター 緑 A",
+   "price": 33000,
+   "bids": 0,
+   "closed_at": "2026-11-23T17:49",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m44696718043",
+   "source": "Mercari"
+  },
   {
    "id": "m86479291179",
    "title_key": "pokemon-red",
@@ -181,22 +229,6 @@
    "source": "Yahoo Auction"
   },
   {
-   "id": "m44696718043",
-   "title_key": "pokemon-green",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": null,
-   "title": "【初期版バーコード大】ポケットモンスター 緑 A",
-   "price": 33000,
-   "bids": 0,
-   "closed_at": "2026-11-22T16:11",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m44696718043",
-   "source": "Mercari"
-  },
-  {
    "id": "m19678054713",
    "title_key": "pokemon-green",
    "variant_key": "no-postcard",
@@ -229,22 +261,6 @@
    "source": "Mercari"
   },
   {
-   "id": "m58822997903",
-   "title_key": "pokemon-green",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": null,
-   "title": "ポケットモンスター 緑 ポケモン ゲームボーイ ソフト バーコード大",
-   "price": 48000,
-   "bids": 0,
-   "closed_at": "2026-11-22T10:54",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m58822997903",
-   "source": "Mercari"
-  },
-  {
    "id": "m52850197587",
    "title_key": "pokemon-red",
    "variant_key": "no-postcard",
@@ -274,22 +290,6 @@
    "closed_at": "2026-11-22T01:53",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m35828941264",
-   "source": "Mercari"
-  },
-  {
-   "id": "m91470134078",
-   "title_key": "pokemon-green",
-   "variant_key": "no-postcard",
-   "condition": "unknown",
-   "status": "review",
-   "review_reason": "box not mentioned · barcode size not stated",
-   "stamp": "00",
-   "title": "「ポケットモンスター 緑」初期ロット 00",
-   "price": 3000,
-   "bids": 0,
-   "closed_at": "2026-11-21T23:34",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m91470134078",
    "source": "Mercari"
   },
   {
