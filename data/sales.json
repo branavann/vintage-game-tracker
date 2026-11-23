@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T04:42",
+ "generated_at": "2026-11-23T16:41",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 110.888,
@@ -7,22 +7,22 @@
   "note": "ECB rate 2026-11-20"
  },
  "last_run": {
-  "at": "2026-11-23T04:39",
+  "at": "2026-11-23T16:38",
   "sources": {
    "Yahoo Auction": {
     "fetched": 294
    },
    "Yahoo Flea": {
-    "fetched": 163
+    "fetched": 159
    },
    "Mercari": {
-    "fetched": 1970,
-    "new": 1027,
+    "fetched": 1973,
+    "new": 1028,
     "dates_improved": 0,
     "status": "ok"
    }
   },
-  "yahoo_new": 123
+  "yahoo_new": 121
  },
  "titles": [
   {
@@ -85,6 +85,86 @@
  ],
  "sales": [
   {
+   "id": "m86479291179",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": "22",
+   "title": "初期ロット ポケットモンスター 赤 バーコード大 刻印22 ゲームボーイ GB",
+   "price": 95000,
+   "bids": 0,
+   "closed_at": "2026-11-23T10:25",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m86479291179",
+   "source": "Mercari"
+  },
+  {
+   "id": "m13746363566",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": "22",
+   "title": "【希少】ポケットモンスター赤 レッド 初期ロット刻印22 ゲームボーイ ポケモン",
+   "price": 3980,
+   "bids": 0,
+   "closed_at": "2026-11-23T09:24",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m13746363566",
+   "source": "Mercari"
+  },
+  {
+   "id": "m86384716526",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "【希少】スーパーマリオブラザーズ 初期版 5000点誤植 バーコードなし",
+   "price": 44800,
+   "bids": 0,
+   "closed_at": "2026-11-23T08:45",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m86384716526",
+   "source": "Mercari"
+  },
+  {
+   "id": "m75544718610",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "超希少 初期 ファミコン スーパーマリオブラザーズ バーコードなし 説明書誤植",
+   "price": 38000,
+   "bids": 0,
+   "closed_at": "2026-11-23T08:21",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m75544718610",
+   "source": "Mercari"
+  },
+  {
+   "id": "m56894181002",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": "00",
+   "title": "【初期ロット・刻印00】ポケットモンスター 緑 GB ゲームボーイ",
+   "price": 2500,
+   "bids": 0,
+   "closed_at": "2026-11-23T06:31",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m56894181002",
+   "source": "Mercari"
+  },
+  {
    "id": "p1252548547",
    "title_key": "smb-nobarcode",
    "variant_key": "with-errata",
@@ -99,22 +179,6 @@
    "date_basis": "auction_end",
    "url": "https://auctions.yahoo.co.jp/jp/auction/p1252548547",
    "source": "Yahoo Auction"
-  },
-  {
-   "id": "m86384716526",
-   "title_key": "smb-nobarcode",
-   "variant_key": "no-errata",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": null,
-   "title": "【希少】スーパーマリオブラザーズ 初期版 5000点誤植 バーコードなし",
-   "price": 44800,
-   "bids": 0,
-   "closed_at": "2026-11-22T21:00",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m86384716526",
-   "source": "Mercari"
   },
   {
    "id": "m44696718043",
@@ -213,22 +277,6 @@
    "source": "Mercari"
   },
   {
-   "id": "m13746363566",
-   "title_key": "pokemon-red",
-   "variant_key": "no-postcard",
-   "condition": "unknown",
-   "status": "review",
-   "review_reason": "box not mentioned · barcode size not stated",
-   "stamp": "22",
-   "title": "【希少】ポケットモンスター赤 レッド 初期ロット刻印22 ゲームボーイ ポケモン",
-   "price": 3980,
-   "bids": 0,
-   "closed_at": "2026-11-21T23:36",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m13746363566",
-   "source": "Mercari"
-  },
-  {
    "id": "m91470134078",
    "title_key": "pokemon-green",
    "variant_key": "no-postcard",
@@ -309,22 +357,6 @@
    "source": "Mercari"
   },
   {
-   "id": "m86479291179",
-   "title_key": "pokemon-red",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": "22",
-   "title": "初期ロット ポケットモンスター 赤 バーコード大 刻印22 ゲームボーイ GB",
-   "price": 95000,
-   "bids": 0,
-   "closed_at": "2026-11-21T08:59",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m86479291179",
-   "source": "Mercari"
-  },
-  {
    "id": "z727767514",
    "title_key": "pokemon-red",
    "variant_key": "no-postcard",
@@ -386,22 +418,6 @@
    "closed_at": "2026-11-20T18:32",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m35818086611",
-   "source": "Mercari"
-  },
-  {
-   "id": "m56894181002",
-   "title_key": "pokemon-green",
-   "variant_key": "no-postcard",
-   "condition": "unknown",
-   "status": "review",
-   "review_reason": "box not mentioned · barcode size not stated",
-   "stamp": "00",
-   "title": "【初期ロット・刻印00】ポケットモンスター 緑 GB ゲームボーイ",
-   "price": 2500,
-   "bids": 0,
-   "closed_at": "2026-11-20T18:20",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m56894181002",
    "source": "Mercari"
   },
   {
