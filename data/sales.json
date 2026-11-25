@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T07:29",
+ "generated_at": "2026-11-25T17:36",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 111.027,
@@ -7,7 +7,7 @@
   "note": "ECB rate 2026-11-24"
  },
  "last_run": {
-  "at": "2026-11-25T07:27",
+  "at": "2026-11-25T17:33",
   "sources": {
    "Yahoo Auction": {
     "fetched": 294
@@ -16,8 +16,8 @@
     "fetched": 159
    },
    "Mercari": {
-    "fetched": 1986,
-    "new": 1032,
+    "fetched": 1988,
+    "new": 1030,
     "dates_improved": 0,
     "status": "ok"
    }
@@ -84,6 +84,38 @@
   }
  ],
  "sales": [
+  {
+   "id": "m28220322264",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "review",
+   "review_reason": "priced like a copy with survey postcard (3× the typical ¥77,000) — check photos for an unlisted survey postcard",
+   "stamp": "22",
+   "title": "子供の為頑張る様専用 ポケモン赤 初期ロット 刻印22 バーコード大",
+   "price": 1750000,
+   "bids": 0,
+   "closed_at": "2026-11-25T14:14",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m28220322264",
+   "source": "Mercari"
+  },
+  {
+   "id": "m75544718610",
+   "title_key": "smb-nobarcode",
+   "variant_key": "no-errata",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": null,
+   "title": "超希少 初期 ファミコン スーパーマリオブラザーズ バーコードなし 説明書誤植",
+   "price": 38000,
+   "bids": 0,
+   "closed_at": "2026-11-25T11:01",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m75544718610",
+   "source": "Mercari"
+  },
   {
    "id": "m13803594256",
    "title_key": "pokemon-green",
@@ -210,38 +242,6 @@
    "closed_at": "2026-11-24T16:38",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m57900226129",
-   "source": "Mercari"
-  },
-  {
-   "id": "m75544718610",
-   "title_key": "smb-nobarcode",
-   "variant_key": "no-errata",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": null,
-   "title": "超希少 初期 ファミコン スーパーマリオブラザーズ バーコードなし 説明書誤植",
-   "price": 38000,
-   "bids": 0,
-   "closed_at": "2026-11-24T16:18",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m75544718610",
-   "source": "Mercari"
-  },
-  {
-   "id": "m28220322264",
-   "title_key": "pokemon-red",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "review",
-   "review_reason": "priced like a copy with survey postcard (3× the typical ¥77,000) — check photos for an unlisted survey postcard",
-   "stamp": "22",
-   "title": "子供の為頑張る様専用 ポケモン赤 初期ロット 刻印22 バーコード大",
-   "price": 1750000,
-   "bids": 0,
-   "closed_at": "2026-11-24T09:55",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m28220322264",
    "source": "Mercari"
   },
   {
