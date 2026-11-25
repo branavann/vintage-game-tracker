@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-25T17:36",
+ "generated_at": "2026-11-26T06:44",
  "timezone": "Asia/Tokyo",
  "fx": {
-  "CAD": 111.027,
-  "USD": 159.071,
-  "note": "ECB rate 2026-11-24"
+  "CAD": 111.744,
+  "USD": 159.324,
+  "note": "ECB rate 2026-11-25"
  },
  "last_run": {
-  "at": "2026-11-25T17:33",
+  "at": "2026-11-26T06:42",
   "sources": {
    "Yahoo Auction": {
     "fetched": 294
@@ -16,8 +16,8 @@
     "fetched": 159
    },
    "Mercari": {
-    "fetched": 1988,
-    "new": 1030,
+    "fetched": 1997,
+    "new": 1035,
     "dates_improved": 0,
     "status": "ok"
    }
@@ -84,6 +84,38 @@
   }
  ],
  "sales": [
+  {
+   "id": "m82993906498",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": "22",
+   "title": "ポケットモンスター 赤 バーコード大 刻印22",
+   "price": 46980,
+   "bids": 0,
+   "closed_at": "2026-11-26T04:35",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m82993906498",
+   "source": "Mercari"
+  },
+  {
+   "id": "m80725810778",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": null,
+   "title": "エ*ス様 ゲームボーイソフト ポケットモンスター 赤 初期ロット ００",
+   "price": 4000,
+   "bids": 0,
+   "closed_at": "2026-11-25T20:04",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m80725810778",
+   "source": "Mercari"
+  },
   {
    "id": "m28220322264",
    "title_key": "pokemon-red",
