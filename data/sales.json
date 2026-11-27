@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T06:34",
+ "generated_at": "2026-11-27T17:35",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 111.923,
@@ -7,7 +7,7 @@
   "note": "ECB rate 2026-11-26"
  },
  "last_run": {
-  "at": "2026-11-27T06:31",
+  "at": "2026-11-27T17:33",
   "sources": {
    "Yahoo Auction": {
     "fetched": 294
@@ -16,7 +16,7 @@
     "fetched": 159
    },
    "Mercari": {
-    "fetched": 2007,
+    "fetched": 2008,
     "new": 1036,
     "dates_improved": 0,
     "status": "ok"
@@ -84,6 +84,38 @@
   }
  ],
  "sales": [
+  {
+   "id": "m53576451982",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": "00",
+   "title": "【刻印00】ポケットモンスター 緑 初代 GB ゲームボーイ",
+   "price": 1800,
+   "bids": 0,
+   "closed_at": "2026-11-27T17:12",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m53576451982",
+   "source": "Mercari"
+  },
+  {
+   "id": "m82993906498",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": "22",
+   "title": "ポケットモンスター 赤 バーコード大 刻印22",
+   "price": 46980,
+   "bids": 0,
+   "closed_at": "2026-11-27T11:53",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m82993906498",
+   "source": "Mercari"
+  },
   {
    "id": "m23121508015",
    "title_key": "pokemon-green",
@@ -178,22 +210,6 @@
    "closed_at": "2026-11-26T08:55",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m80725810778",
-   "source": "Mercari"
-  },
-  {
-   "id": "m82993906498",
-   "title_key": "pokemon-red",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": "22",
-   "title": "ポケットモンスター 赤 バーコード大 刻印22",
-   "price": 46980,
-   "bids": 0,
-   "closed_at": "2026-11-26T07:54",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m82993906498",
    "source": "Mercari"
   },
   {
