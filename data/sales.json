@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-27T17:35",
+ "generated_at": "2026-11-28T06:19",
  "timezone": "Asia/Tokyo",
  "fx": {
-  "CAD": 111.923,
-  "USD": 159.261,
-  "note": "ECB rate 2026-11-26"
+  "CAD": 112.0,
+  "USD": 159.543,
+  "note": "ECB rate 2026-11-27"
  },
  "last_run": {
-  "at": "2026-11-27T17:33",
+  "at": "2026-11-28T06:17",
   "sources": {
    "Yahoo Auction": {
     "fetched": 294
@@ -84,6 +84,70 @@
   }
  ],
  "sales": [
+  {
+   "id": "m71402328509",
+   "title_key": "pokemon-green",
+   "variant_key": "with-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": "00",
+   "title": "【ハガキ付完品✨】初期 完品 ポケモン 緑 ゲームボーイ 刻印00バーコード大",
+   "price": 410000,
+   "bids": 0,
+   "closed_at": "2026-11-27T20:32",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m71402328509",
+   "source": "Mercari"
+  },
+  {
+   "id": "m28220322264",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "review",
+   "review_reason": "priced like a copy with survey postcard (3× the typical ¥75,000) — check photos for an unlisted survey postcard",
+   "stamp": "22",
+   "title": "子供の為頑張る様専用 ポケモン赤 初期ロット 刻印22 バーコード大",
+   "price": 1750000,
+   "bids": 0,
+   "closed_at": "2026-11-27T20:30",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m28220322264",
+   "source": "Mercari"
+  },
+  {
+   "id": "m84317408553",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": "22",
+   "title": "✨超希少初期箱✨ゲームボーイ ポケットモンスター 緑 バーコード大 刻印22",
+   "price": 42000,
+   "bids": 0,
+   "closed_at": "2026-11-27T18:22",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m84317408553",
+   "source": "Mercari"
+  },
+  {
+   "id": "m86479291179",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "charted",
+   "review_reason": "",
+   "stamp": "22",
+   "title": "初期ロット ポケットモンスター 赤 バーコード大 刻印22 ゲームボーイ GB",
+   "price": 95000,
+   "bids": 0,
+   "closed_at": "2026-11-27T17:50",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m86479291179",
+   "source": "Mercari"
+  },
   {
    "id": "m53576451982",
    "title_key": "pokemon-green",
@@ -181,22 +245,6 @@
    "source": "Mercari"
   },
   {
-   "id": "m71402328509",
-   "title_key": "pokemon-green",
-   "variant_key": "with-postcard",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": "00",
-   "title": "【ハガキ付完品✨】初期 完品 ポケモン 緑 ゲームボーイ 刻印00バーコード大",
-   "price": 410000,
-   "bids": 0,
-   "closed_at": "2026-11-26T10:04",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m71402328509",
-   "source": "Mercari"
-  },
-  {
    "id": "m80725810778",
    "title_key": "pokemon-red",
    "variant_key": "no-postcard",
@@ -226,22 +274,6 @@
    "closed_at": "2026-11-26T07:44",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m13803594256",
-   "source": "Mercari"
-  },
-  {
-   "id": "m28220322264",
-   "title_key": "pokemon-red",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "review",
-   "review_reason": "priced like a copy with survey postcard (3× the typical ¥75,000) — check photos for an unlisted survey postcard",
-   "stamp": "22",
-   "title": "子供の為頑張る様専用 ポケモン赤 初期ロット 刻印22 バーコード大",
-   "price": 1750000,
-   "bids": 0,
-   "closed_at": "2026-11-25T14:14",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m28220322264",
    "source": "Mercari"
   },
   {
@@ -373,22 +405,6 @@
    "source": "Mercari"
   },
   {
-   "id": "m86479291179",
-   "title_key": "pokemon-red",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": "22",
-   "title": "初期ロット ポケットモンスター 赤 バーコード大 刻印22 ゲームボーイ GB",
-   "price": 95000,
-   "bids": 0,
-   "closed_at": "2026-11-23T10:25",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m86479291179",
-   "source": "Mercari"
-  },
-  {
    "id": "m56894181002",
    "title_key": "pokemon-green",
    "variant_key": "no-postcard",
@@ -498,22 +514,6 @@
    "closed_at": "2026-11-21T11:51",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m68210172142",
-   "source": "Mercari"
-  },
-  {
-   "id": "m84317408553",
-   "title_key": "pokemon-green",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "charted",
-   "review_reason": "",
-   "stamp": "22",
-   "title": "✨超希少初期箱✨ゲームボーイ ポケットモンスター 緑 バーコード大 刻印22",
-   "price": 42000,
-   "bids": 0,
-   "closed_at": "2026-11-21T10:36",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m84317408553",
    "source": "Mercari"
   },
   {
