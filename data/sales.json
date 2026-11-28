@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T06:19",
+ "generated_at": "2026-11-28T16:51",
  "timezone": "Asia/Tokyo",
  "fx": {
   "CAD": 112.0,
@@ -7,13 +7,13 @@
   "note": "ECB rate 2026-11-27"
  },
  "last_run": {
-  "at": "2026-11-28T06:17",
+  "at": "2026-11-28T16:48",
   "sources": {
    "Yahoo Auction": {
-    "fetched": 294
+    "fetched": 291
    },
    "Yahoo Flea": {
-    "fetched": 159
+    "fetched": 160
    },
    "Mercari": {
     "fetched": 2008,
@@ -22,7 +22,7 @@
     "status": "ok"
    }
   },
-  "yahoo_new": 121
+  "yahoo_new": 120
  },
  "titles": [
   {
@@ -84,6 +84,38 @@
   }
  ],
  "sales": [
+  {
+   "id": "m13803594256",
+   "title_key": "pokemon-green",
+   "variant_key": "no-postcard",
+   "condition": "cib",
+   "status": "review",
+   "review_reason": "barcode size not stated",
+   "stamp": "00",
+   "title": "ポケットモンスター 緑 初期箱 刻印00 箱・説明書付",
+   "price": 63999,
+   "bids": 0,
+   "closed_at": "2026-11-28T13:46",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m13803594256",
+   "source": "Mercari"
+  },
+  {
+   "id": "m80725810778",
+   "title_key": "pokemon-red",
+   "variant_key": "no-postcard",
+   "condition": "unknown",
+   "status": "review",
+   "review_reason": "box not mentioned · barcode size not stated",
+   "stamp": null,
+   "title": "エ*ス様 ゲームボーイソフト ポケットモンスター 赤 初期ロット ００",
+   "price": 4000,
+   "bids": 0,
+   "closed_at": "2026-11-28T08:59",
+   "date_basis": "mercari_updated",
+   "url": "https://jp.mercari.com/item/m80725810778",
+   "source": "Mercari"
+  },
   {
    "id": "m71402328509",
    "title_key": "pokemon-green",
@@ -242,38 +274,6 @@
    "closed_at": "2026-11-26T20:23",
    "date_basis": "mercari_updated",
    "url": "https://jp.mercari.com/item/m66957655118",
-   "source": "Mercari"
-  },
-  {
-   "id": "m80725810778",
-   "title_key": "pokemon-red",
-   "variant_key": "no-postcard",
-   "condition": "unknown",
-   "status": "review",
-   "review_reason": "box not mentioned · barcode size not stated",
-   "stamp": null,
-   "title": "エ*ス様 ゲームボーイソフト ポケットモンスター 赤 初期ロット ００",
-   "price": 4000,
-   "bids": 0,
-   "closed_at": "2026-11-26T08:55",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m80725810778",
-   "source": "Mercari"
-  },
-  {
-   "id": "m13803594256",
-   "title_key": "pokemon-green",
-   "variant_key": "no-postcard",
-   "condition": "cib",
-   "status": "review",
-   "review_reason": "barcode size not stated",
-   "stamp": "00",
-   "title": "ポケットモンスター 緑 初期箱 刻印00 箱・説明書付",
-   "price": 63999,
-   "bids": 0,
-   "closed_at": "2026-11-26T07:44",
-   "date_basis": "mercari_updated",
-   "url": "https://jp.mercari.com/item/m13803594256",
    "source": "Mercari"
   },
   {
